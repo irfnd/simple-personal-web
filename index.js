@@ -9,4 +9,4 @@ app.set("view engine", "pug");
 app.use("/assets", express.static(path.join(__dirname, "public")));
 app.use("/", routes);
 
-app.listen(80, () => console.log("> Server Running on http://localhost"));
+app.listen(80, () => console.log("> Server Running"));
