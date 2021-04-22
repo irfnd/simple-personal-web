@@ -1,4 +1,5 @@
 const express = require("express");
+const dotenv = require("dotenv").config();
 const path = require("path");
 const app = express();
 const routes = require("./routes/routes");
@@ -9,4 +10,4 @@ app.set("view engine", "pug");
 app.use("/assets", express.static(path.join(__dirname, "public")));
 app.use("/", routes);
 
-app.listen(80, () => console.log("> Server Running"));
+app.listen(process.env.PORT, () => console.log("> Server Running"));
