@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="shortcut icon", href="/assets/favicon.ico", type="image/x-icon")
+    link(rel="stylesheet", href="/assets/bootstrap/bootstrap.css")
+    link(rel="stylesheet", href="/assets/fontawesome/css/all.css")
+    block title 
+  body
+    nav(class="navbar navbar-expand-lg navbar-dark bg-dark py-3")
+      .container
+        a(class="navbar-brand", href="/")
+          i(class="fas fa-user-circle fa-lg text-success")
+          |  Personal Web
+        button(class="navbar-toggler", type="button", data-bs-toggle="collapse", data-bs-target="#navbarIcon", aria-controls="navbarIcon", aria-expanded="false", aria-label="Toggle navigation")
+          span(class="navbar-toggler-icon")
+        div(class="collapse navbar-collapse", id="navbarIcon")
+          ul(class="navbar-nav w-100 me-lg-auto m-2 m-lg-0 justify-content-end")
+            block navbar
+          a(href="/assets/cv_irfandi-iqbal-abimanyu.pdf", style="width: 80px", class="mx-lg-2 btn btn-outline-success btn-sm") Get CV
+
+    block content
+    
+    footer(class="footer bg-success text-light text-center py-3")
+      .container Copyright &copy 2021. Irfandi Iqbal Abimanyu
+
+    script(src="/assets/bootstrap/bootstrap.bundle.js")
