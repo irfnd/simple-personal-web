@@ -1,4 +1,4 @@
-# :desktop_computer: Simple Personal Web
+# :desktop_computer: Studi Kasus - Web Pribadi
 
 Menggunakan Node.js, Express, Pug, Bootstrap, Fontawesome
 
