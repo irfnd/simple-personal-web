@@ -6,7 +6,7 @@ Menggunakan Node.js, Express, Pug, Bootstrap, Fontawesome
 
 Projek ini merupakan tugas kuliah.
 
-Matakuliah Pemrograman Web Framework.
+Matakuliah Pemrograman Web Framework, Manajemen Informatika, Politeknik Negeri Lampung
 
 Dengan Dosen pengampu.
 
